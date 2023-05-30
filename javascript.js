@@ -17,7 +17,7 @@ function addTask(){
 }
 
 
-document.write(addTask);
+console.log(addTask);
 
 listContainer.addEventListener("click",function(e){
     if(e.target.tagName==="LI"){
